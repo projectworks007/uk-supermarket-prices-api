@@ -1,6 +1,6 @@
-# UK Supermarket Prices API: Tesco, Sainsbury's, Asda and Morrisons
+# UK Supermarket Prices API: Tesco, Sainsbury's, Asda, Morrisons, Ocado, Waitrose and Iceland
 
-Live UK grocery prices as clean JSON. Search **Tesco, Sainsbury's, Asda and Morrisons** by keyword and get the product name, price, was-price, offer text, unit price, pack size, image and link, in GBP. One API, one key, the same fields for every store.
+Live UK grocery prices as clean JSON. Search **Tesco, Sainsbury's, Asda, Morrisons, Ocado, Waitrose and Iceland** by keyword and get the product name, price, was-price, offer text, unit price, pack size, image and link, in GBP. One API, one key, the same fields for every store.
 
 **[Get a free key on RapidAPI (50 calls a month)](https://rapidapi.com/highbrowfame/api/uk-supermarket-prices-tesco-sainsburys-asda-morrisons)** and run the examples below in two minutes.
 
@@ -19,7 +19,7 @@ curl --get "https://uk-supermarket-prices-tesco-sainsburys-asda-morrisons.p.rapi
 
 | Parameter | Required | Meaning |
 | --- | --- | --- |
-| `store` | yes | `tesco`, `sainsburys`, `asda` or `morrisons` |
+| `store` | yes | `tesco`, `sainsburys`, `asda`, `morrisons`, `ocado`, `waitrose` or `iceland` |
 | `query` | yes | What you would type into the store's search box, e.g. `baked beans` |
 | `limit` | no | Maximum products, 1 to 50 (default 20) |
 | `onlySpecials` | no | `true` returns only products on offer |
@@ -103,7 +103,7 @@ Per store:
 
 - **Sainsbury's**: also the EAN barcode, availability and Nectar offers with their dates.
 - **Morrisons**: also brand, category and availability.
-- **Tesco and Asda**: prices from each chain's own Google Shopping listings (resellers removed), without barcode or stock status. Naming the brand or pack size gives the best matches. These two answer more slowly (often 10 to 30 seconds), so set your client timeout to a minute or more.
+- **Tesco, Asda, Ocado, Waitrose and Iceland**: prices from each chain's own Google Shopping listings (resellers removed), without barcode or stock status. Naming the brand or pack size gives the best matches. These five answer more slowly (often 10 to 30 seconds), so set your client timeout to a minute or more.
 
 ## What people build with it
 
@@ -147,4 +147,4 @@ Figures as shown on the [pricing page](https://rapidapi.com/highbrowfame/api/uk-
 
 ---
 
-The example code is MIT licensed. This project is independent and is not affiliated with Tesco, Sainsbury's, Asda or Morrisons. Maintained by highbrow_fame.
+The example code is MIT licensed. This project is independent and is not affiliated with Tesco, Sainsbury's, Asda, Morrisons, Ocado, Waitrose or Iceland. Maintained by highbrow_fame.
