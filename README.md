@@ -126,7 +126,7 @@ Figures as shown on the [pricing page](https://rapidapi.com/highbrowfame/api/uk-
 
 ## Other countries
 
-- **Australia**: [Australian Supermarket Prices API: Coles, Woolworths, ALDI](https://rapidapi.com/highbrowfame/api/australian-supermarket-prices-api-coles-woolworths-aldi)
+- **Australia**: [Australian Supermarket Prices API: Coles, Woolworths, ALDI](https://rapidapi.com/highbrowfame/api/australian-supermarket-prices-api-coles-woolworths-aldi), with [code examples](https://github.com/projectworks007/australian-supermarket-prices-api)
 - **New Zealand**: [New Zealand Supermarket Prices API: Woolworths (Countdown)](https://rapidapi.com/highbrowfame/api/new-zealand-supermarket-prices-api-woolworths-countdown)
 
 ## FAQ
